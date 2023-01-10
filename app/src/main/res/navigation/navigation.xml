@@ -48,7 +48,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.bestseller.ui.HomeFragment"
+        android:name="com.example.bestseller.ui.NavFragment"
         android:label="HomeFragment" >
         <action
             android:id="@+id/action_homeFragment_to_startFragment"

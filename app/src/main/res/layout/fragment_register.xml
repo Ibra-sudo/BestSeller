@@ -95,16 +95,13 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:alpha="0.5"
             android:hint="Email"
-            android:textColorHint="#000000"
-            app:boxBackgroundColor="#B9959494"
             app:boxCornerRadiusBottomEnd="0dp"
             app:boxCornerRadiusBottomStart="0dp"
             app:boxCornerRadiusTopEnd="0dp"
             app:boxCornerRadiusTopStart="0dp"
-            app:boxStrokeColor="#958282"
-            app:hintTextColor="#000000"
+            app:boxStrokeColor="#E0E0E0"
+            app:hintTextColor="#5A5A5A"
             app:layout_constraintBottom_toTopOf="@+id/signin_layout_password"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
@@ -124,17 +121,14 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
-            android:alpha="0.5"
             android:hint="Password"
-            android:textColorHint="#000000"
-            app:boxBackgroundColor="#B9959494"
             app:boxCornerRadiusBottomEnd="0dp"
             app:boxCornerRadiusBottomStart="0dp"
             app:boxCornerRadiusTopEnd="0dp"
             app:boxCornerRadiusTopStart="0dp"
-            app:boxStrokeColor="#958282"
-            app:hintTextColor="#000000"
-            app:layout_constraintBottom_toTopOf="@+id/signin_layout_repassword"
+            app:boxStrokeColor="#E0E0E0"
+            app:hintTextColor="#5A5A5A"
+            app:layout_constraintBottom_toTopOf="@+id/register_signin_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent">
 
@@ -146,34 +140,34 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/signin_layout_repassword"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="8dp"
-            android:alpha="0.5"
-            android:hint="Repassword"
-            android:textColorHint="#000000"
-            app:boxBackgroundColor="#B9959494"
-            app:boxCornerRadiusBottomEnd="0dp"
-            app:boxCornerRadiusBottomStart="0dp"
-            app:boxCornerRadiusTopEnd="0dp"
-            app:boxCornerRadiusTopStart="0dp"
-            app:boxStrokeColor="#958282"
-            app:hintTextColor="#000000"
-            app:layout_constraintBottom_toTopOf="@+id/register_signin_button"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+<!--        <com.google.android.material.textfield.TextInputLayout-->
+<!--            android:id="@+id/signin_layout_repassword"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:alpha="0.5"-->
+<!--            android:hint="Repassword"-->
+<!--            android:textColorHint="#000000"-->
+<!--            app:boxBackgroundColor="#B9959494"-->
+<!--            app:boxCornerRadiusBottomEnd="0dp"-->
+<!--            app:boxCornerRadiusBottomStart="0dp"-->
+<!--            app:boxCornerRadiusTopEnd="0dp"-->
+<!--            app:boxCornerRadiusTopStart="0dp"-->
+<!--            app:boxStrokeColor="#958282"-->
+<!--            app:hintTextColor="#000000"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/register_signin_button"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent">-->
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/signin_text_repassword"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:inputType="textPassword"/>
+<!--            <com.google.android.material.textfield.TextInputEditText-->
+<!--                android:id="@+id/signin_text_repassword"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:inputType="textPassword"/>-->
 
-        </com.google.android.material.textfield.TextInputLayout>
+<!--        </com.google.android.material.textfield.TextInputLayout>-->
 
 <!--        <com.google.android.material.textfield.TextInputLayout-->
 <!--            android:id="@+id/signin_layout_name"-->
