@@ -13,15 +13,86 @@
 
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/cart_viewText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Card"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/trispace"
+            android:letterSpacing="0.1"
+            android:text="Cart"
+            android:textColor="#000000"
+            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="0dp"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="8dp"
+            android:background="#272727"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cart_viewText"
+            tools:ignore="MissingConstraints" />
+
+        <include
+            layout="@layout/cart_empty"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/fragmentContainerView3"-->
+<!--            android:name="com.example.bestseller.ui.CardFragment"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:defaultNavHost="true"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/view"-->
+<!--            app:navGraph="@navigation/navigation"-->
+<!--            tools:layout="@layout/cart_empty" />-->
+
+
+        <!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/view"-->
+<!--            app:layout_constraintVertical_bias="0.0">-->
+
+<!--            &lt;!&ndash;            <androidx.recyclerview.widget.RecyclerView&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:id="@+id/cart_empty_recycler"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="0dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintHorizontal_bias="0.0"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintTop_toBottomOf="@+id/view"&ndash;&gt;-->
+<!--            &lt;!&ndash;                app:layout_constraintVertical_bias="1.0"&ndash;&gt;-->
+<!--            &lt;!&ndash;                tools:listitem="@layout/cart_empty" />&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--            &lt;!&ndash;                android:layout_height="wrap_content" >&ndash;&gt;-->
+<!--            &lt;!&ndash;                &ndash;&gt;-->
+<!--            &lt;!&ndash;                &ndash;&gt;-->
+
+<!--            -->
+<!--            &lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
+<!--        </ScrollView>-->
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

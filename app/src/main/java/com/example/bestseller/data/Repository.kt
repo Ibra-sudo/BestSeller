@@ -12,19 +12,19 @@ class Repository {
                 R.drawable.start_background_image
             ),
             PagerArticle(
-                "Welcome to \n BestSeller2!",
-                "The most exclusive shop with massive discounts on top brands2",
+                "Become a member",
+                "You must first be invited by an existing member to obtain the secret code. Membership is free, but it's not for everyone",
                 R.drawable.register_image
             ),
             PagerArticle(
-                "Welcome to \n BestSeller3!",
-                "The most exclusive shop with massive discounts on top brands3",
-                R.drawable.login_background_image
+                "Store Access",
+                "Be part of Our VIP-Club. Silver, Gold and Diamond Members can gain full access to our exclusive stores",
+                R.drawable.view_pager_store
             ),
             PagerArticle(
-                "Welcome to \n BestSeller4!",
-                "The most exclusive shop with massive discounts on top brands4",
-                R.drawable.screenshot_2022_12_09_at_15_20_13
+                "Designers",
+                "3 million products from over 3,000 of your favourite brands with endless offers to snap up",
+                R.drawable.view_pager_brands2
             ),
         )
     }

@@ -1,9 +1,8 @@
 package com.example.bestseller.ui
 
+import android.os.Build
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.view.*
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
@@ -44,7 +43,7 @@ class StartFragment : Fragment() {
         indicator.createIndicators(5,0)
 //        indicator.animatePageSelected(2)
         indicator.animate()
-        indicator.setViewPager(viewPager)
+//        indicator.setViewPager(viewPager)
 
         viewModel.pagerArticle.observe(
             viewLifecycleOwner,

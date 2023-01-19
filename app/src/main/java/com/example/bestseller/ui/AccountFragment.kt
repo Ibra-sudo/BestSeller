@@ -5,11 +5,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
+import com.example.bestseller.MainViewModel
 import com.example.bestseller.databinding.FragmentAccountBinding
 
 class AccountFragment: Fragment() {
 
     private lateinit var binding: FragmentAccountBinding
+
+    private val viewModel: MainViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -21,6 +25,8 @@ class AccountFragment: Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        //TODO
+        binding.logoutBtn.setOnClickListener {
+            viewModel.logOut()
+        }
     }
 }

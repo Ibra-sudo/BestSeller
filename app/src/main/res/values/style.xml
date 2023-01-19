@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="underline_spacing" parent="TextAppearance.Design.CollapsingToolbar.Expanded">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

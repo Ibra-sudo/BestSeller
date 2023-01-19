@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/alatsi</item>
         <item>@font/lexend_exa</item>
         <item>@font/lexend_zetta</item>
+        <item>@font/trispace</item>
+        <item>@font/trispace_bold</item>
+        <item>@font/trispace_extralight</item>
+        <item>@font/trispace_medium</item>
     </array>
 </resources>

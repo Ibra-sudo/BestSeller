@@ -45,6 +45,9 @@
         <action
             android:id="@+id/action_registerFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -53,5 +56,24 @@
         <action
             android:id="@+id/action_homeFragment_to_startFragment"
             app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchViewFragment"
+            app:destination="@id/searchViewFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/searchViewFragment"
+        android:name="com.example.bestseller.ui.SearchViewFragment"
+        android:label="SearchViewFragment" />
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.example.bestseller.ui.CardFragment"
+        android:label="CardFragment" >
+        <action
+            android:id="@+id/action_cardFragment_to_homeFragment2"
+            app:destination="@id/homeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.example.bestseller.ui.HomeFragment"
+        android:label="HomeFragment" />
 </navigation>

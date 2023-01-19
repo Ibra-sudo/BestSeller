@@ -18,9 +18,7 @@
             app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </FrameLayout>
+            app:layout_constraintTop_toTopOf="parent"></FrameLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
@@ -38,18 +36,30 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/item_menu" />
+            app:menu="@menu/item_menu" >
 
-        <Button
-            android:id="@+id/home_logout_btn"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:text="LOGOUT"
-            android:visibility="visible"
-            app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="@+id/home_frameLayout"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent">-->
+
+<!--            <androidx.fragment.app.FragmentContainerView-->
+<!--                android:id="@+id/fragmentContainerView7"-->
+<!--                android:name="com.example.bestseller.ui.CardFragment"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                app:defaultNavHost="true"-->
+<!--                app:navGraph="@navigation/navigation"-->
+<!--                tools:layout="@layout/cart_empty" />-->
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

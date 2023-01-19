@@ -56,5 +56,10 @@ class RegisterFragment : Fragment() {
                 viewModel.signUp(email, password)
             }
         }
+
+        binding.linkLoginText.setOnClickListener {
+            findNavController()
+                .navigate(RegisterFragmentDirections.actionRegisterFragmentToLoginFragment())
+        }
     }
 }

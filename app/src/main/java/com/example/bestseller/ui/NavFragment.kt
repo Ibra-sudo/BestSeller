@@ -18,8 +18,6 @@ class NavFragment: Fragment() {
 
     private val viewModel: MainViewModel by activityViewModels()
 
-//    private lateinit var navView: BottomNavigationView
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -42,10 +40,6 @@ class NavFragment: Fragment() {
                 findNavController()
                     .navigate(NavFragmentDirections.actionHomeFragmentToStartFragment())
             }
-        }
-
-        binding.homeLogoutBtn.setOnClickListener {
-            viewModel.logOut()
         }
 
         binding.bottomNavigation.setOnItemSelectedListener {
